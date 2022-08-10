@@ -3,7 +3,7 @@
 
 This R function computes solar azimuth, that is the angle between the rays of the sun and the surface of the Earth. The formula is from:
 
-Zhang T., Stackhouse P. W., Macpherson B., Mikovitz J. C. (2021) A solar azimuth formula that renders circumstantial treatment unnecessary without compromising mathematical rigor: mathematical setup, application and extension of a formula based on the subsolar point and atan2 function. Renewable Energy Volume 172: 1333-1340. [Doi: 10.1016/j.renene.2021.03.047](https://doi.org/10.1016/j.renene.2021.03.047).
+Zhang T., Stackhouse P. W., Macpherson B., Mikovitz J. C. (2021) A solar azimuth formula that renders circumstantial treatment unnecessary without compromising mathematical rigor: mathematical setup, application and extension of a formula based on the *subsolar point* and atan2 function. *Renewable Energy* **172**: 1333-1340. [Doi: 10.1016/j.renene.2021.03.047](https://doi.org/10.1016/j.renene.2021.03.047).
 
 The code is inspired directly from a Fortran code provided with the above paper. The arguments and the returned value are described in the code.
 
