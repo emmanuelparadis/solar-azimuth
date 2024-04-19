@@ -1,4 +1,7 @@
 # solar-azimuth
+
+UPDATE:A bug was fixed: the number of cumulated days since Jan 1 was not correctly computed (2024-04-18).
+
 ## Solar azimuth formula (angle of the sun rays with the Earth surface)
 
 This R function computes solar azimuth, that is the angle between the rays of the sun and the surface of the Earth. The formula is from:
