@@ -24,7 +24,7 @@ sunpos_ultimate_azi_atan2 <- function(inyear, inmon, inday, gmtime, xlat, xlon)
     if ((tmp != 0 && (inyear %% 4) == 0) ||
         (tmp == 0 && (inyear %% 400) == 0)) nday[2] <- 29
 
-    julday <- cumsum(nday)
+    julday <- c(0, cumsum(nday))
     ## Note: julday[12] is equal to either 365 or 366.
 
     dyear <- inyear - 2000
